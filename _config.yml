@@ -16,9 +16,6 @@ menu:
   - page: about
     directory: about/
     icon: fa-user
-  - page: rss
-    directory: atom.xml
-    icon: fa-rss
 
 # Sidebar
 widgets:
@@ -100,7 +97,7 @@ busuanzi: true ## If you want to use Busuanzi page views please set the value to
 
 # About page
 about:
-  photo_url: http://obzf7z93c.bkt.clouddn.com/themeauthor.jpg ## Your photo e.g. http://obzf7z93c.bkt.clouddn.com/themeauthor.jpg
+  photo_url: http://blog.zfdang.com/img/zfdang.png ## Your photo e.g. http://obzf7z93c.bkt.clouddn.com/themeauthor.jpg
   items:
   - label: email
     url: ## Your email with mailto: e.g.  mailto:zhenggchaoo@gmail.com
@@ -120,9 +117,7 @@ about:
 
 # Links widget. Empty links will hide widget.
 links:
-  - title: site-name1
-    url: http://www.example1.com/
+  - title: FreeWheel
+    url: http://www.freewheel.tv/
   - title: site-name2
     url: http://www.example2.com/
-  - title: site-name3
-    url: http://www.example3.com/
