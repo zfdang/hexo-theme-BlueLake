@@ -66,7 +66,7 @@ local_search: true ## Use a javascript-based local search engine, true/false.
 #Cmments
 comment:
   duoshuo: #chaooo ## duoshuo_shortname
-  disqus: ## disqus_shortname
+  disqus: zhengfas-blog ## disqus_shortname
   livere: ## 来必力(data-uid)
   uyan: ## 友言(uid)
   cloudTie: ## 网易云跟帖(productKey)
