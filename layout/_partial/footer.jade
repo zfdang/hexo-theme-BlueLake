@@ -4,6 +4,9 @@
       if theme.baidusitemap
         a(href=config.root+"baidusitemap.xml")= __("baidusitemap")
         |  |  
+      if theme.sitemap
+        a(href=config.root+"sitemap.xml")= __("sitemap")
+        |  |  
       if theme.feed
         a(href=config.root+"atom.xml")= __("rss")
         |  |  
@@ -18,7 +21,7 @@
           i#busuanzi_value_site_pv
         | 次
     p
-      span  Copyright &copy;
-        a(href=url_for('.'), rel='nofollow')= (config.author || config.title) + '.'
+      span  Copyright &copy; 
+        a()= (config.author || config.title) + '.'
       span  Powered by
         a(rel='nofollow', target='_blank', href='https://hexo.io')  Hexo.
